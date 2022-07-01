@@ -5,7 +5,7 @@ rm -f Plus
 rm -f ackinstall*
 rm -f Plus*
 apt update -y && apt upgrade -y && apt install ufw -y
-wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/INSTALADOR-ACKINSTALL/Plus > /dev/null 2>&1
+wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/INSTALADOR-ACKINSTALL/Plus > /dev/null 2>&1
 chattr -i /etc/resolv.conf
 chattr -i /etc/systemd/resolved.conf
 clear
@@ -281,12 +281,12 @@ cd /bin/ && rm -f prissh*
 cd /bin/ && rm -f blocksite*
 cd /bin/ && rm -f blockt*
 cd /bin/ && rm -f swapmemory*
-cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/FERRAMENTAS/ackclear > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/FERRAMENTAS/acksyshttpack > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/FERRAMENTAS/prissh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/FERRAMENTAS/blocksite > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/FERRAMENTAS/blockt > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main//FERRAMENTAS/swapmemory > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/FERRAMENTAS/ackclear > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/FERRAMENTAS/acksyshttpack > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/FERRAMENTAS/prissh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/FERRAMENTAS/blocksite > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/FERRAMENTAS/blockt > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main//FERRAMENTAS/swapmemory > /dev/null 2>&1
 cd /bin/ && chmod +x ackclear
 cd /bin/ && chmod +x acksyshttpack
 cd /bin/ && chmod +x prissh
@@ -300,8 +300,8 @@ cd /bin/ && chmod +x swapmemory
 cd /etc/SSHPlus && rm -rf proxy.py*
 cd /etc/SSHPlus && rm -rf open.py*
 cd /etc/SSHPlus && rm -rf wsproxy.py*
-cd /etc/SSHPlus && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/PYTHON-SOCKS/proxy.py > /dev/null 2>&1
-cd /etc/SSHPlus && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/PYTHON-SOCKS/open.py > /dev/null 2>&1
+cd /etc/SSHPlus && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/PYTHON-SOCKS/proxy.py > /dev/null 2>&1
+cd /etc/SSHPlus && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/PYTHON-SOCKS/open.py > /dev/null 2>&1
 cd /etc/SSHPlus && chmod +x proxy.py
 cd /etc/SSHPlus && chmod +x open.py
 #'+++++++++++++++++++++++++++++++++++++++++++'#
@@ -310,7 +310,7 @@ cd /etc/SSHPlus && chmod +x open.py
 ### "BADVPN UDP" ###
 cd /bin/ && rm -f badvpn*
 cd /bin/ && rm -f badvpn-udpgw*
-cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/BADVPN-UDP/badvpn > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/BADVPN-UDP/badvpn > /dev/null 2>&1
 cd /bin/ && wget https://github.com/F4K3R171337/-GOD-SUKUNA/main/BADVPN-UDP/badvpn-udpgw > /dev/null 2>&1
 cd /bin/ && chmod +x badvpn
 cd /bin/ && chmod +x badvpn-udpgw
@@ -319,7 +319,7 @@ cd /bin/ && chmod +x badvpn-udpgw
 #'+++++++++++++++++++++++++++++++++++++++++++'#
 ### "BOTSSH" ###
 cd /bin/ && rm -f botssh
-cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main//BOTSSH/botssh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main//BOTSSH/botssh > /dev/null 2>&1
 cd /bin/ && chmod +x botssh
 #'+++++++++++++++++++++++++++++++++++++++++++'#
 # ACKHTTP SERVER +++++ ACKHTTP SERVER +++++++'
@@ -336,17 +336,17 @@ cd /etc/pam.d && rm -f other*
 cd /etc/pam.d && rm -f login*
 cd /etc/pam.d && rm -f sshd*
 cd /etc/pam.d && rm -f cron*
-cd /etc/pam.d && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/PAM.SO/common-session-noninteractive > /dev/null 2>&1
-cd /etc/pam.d && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/PAM.SO/common-password > /dev/null 2>&1
-cd /etc/pam.d && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/PAM.SO/common-account  > /dev/null 2>&1
-cd /etc/pam.d && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/PAM.SO/common-session > /dev/null 2>&1
-cd /etc/pam.d && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/PAM.SO/systemd-user  > /dev/null 2>&1
-cd /etc/pam.d && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/PAM.SO/common-auth > /dev/null 2>&1
-cd /etc/pam.d && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/PAM.SO/passwd  > /dev/null 2>&1
-cd /etc/pam.d && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/PAM.SO/other  > /dev/null 2>&1
-cd /etc/pam.d && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/PAM.SO/login  > /dev/null 2>&1
-cd /etc/pam.d && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/PAM.SO/sshd  > /dev/null 2>&1
-cd /etc/pam.d && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/PAM.SO/cron  > /dev/null 2>&1
+cd /etc/pam.d && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/PAM.SO/common-session-noninteractive > /dev/null 2>&1
+cd /etc/pam.d && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/PAM.SO/common-password > /dev/null 2>&1
+cd /etc/pam.d && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/PAM.SO/common-account  > /dev/null 2>&1
+cd /etc/pam.d && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/PAM.SO/common-session > /dev/null 2>&1
+cd /etc/pam.d && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/PAM.SO/systemd-user  > /dev/null 2>&1
+cd /etc/pam.d && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/PAM.SO/common-auth > /dev/null 2>&1
+cd /etc/pam.d && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/PAM.SO/passwd  > /dev/null 2>&1
+cd /etc/pam.d && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/PAM.SO/other  > /dev/null 2>&1
+cd /etc/pam.d && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/PAM.SO/login  > /dev/null 2>&1
+cd /etc/pam.d && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/PAM.SO/sshd  > /dev/null 2>&1
+cd /etc/pam.d && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/PAM.SO/cron  > /dev/null 2>&1
 cd /etc/pam.d && chmod +x common-session-noninteractive
 cd /etc/pam.d && chmod +x common-password
 cd /etc/pam.d && chmod +x common-account
@@ -365,17 +365,17 @@ cd /etc/pam.d && chmod +x cron
 rm -rf /etc/slowdns*
 mkdir /etc/slowdns
 rm -f /bin/slowdns*
-cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/SLOWDNS/slowdns > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/SLOWDNS/slowdns > /dev/null 2>&1
 cd /etc/slowdns && wget https://github.com/F4K3R171337/-GOD-SUKUNA/raw/main/SCRIPT-ACKHTTP-SERVER/SCRIPT-ACKHTTP-SERVER/SLOWDNS/dns-server > /dev/null  2>&1
-cd /etc/slowdns && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/SLOWDNS/remove-slow > /dev/null 2>&1
-cd /etc/slowdns && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/SLOWDNS/restartdns > /dev/null 2>&1
-cd /etc/slowdns && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/SLOWDNS/slowdns-drop > /dev/null 2>&1
-cd /etc/slowdns && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/SLOWDNS/slowdns-info > /dev/null 2>&1
-cd /etc/slowdns && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/SLOWDNS/slowdns-socks > /dev/null 2>&1
-cd /etc/slowdns && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/SLOWDNS/slowdns-ssh > /dev/null 2>&1
-cd /etc/slowdns && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/SLOWDNS/slowdns-ssl > /dev/null 2>&1
-cd /etc/slowdns && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/SLOWDNS/startdns > /dev/null 2>&1
-cd /etc/slowdns && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/SLOWDNS/stopdns > /dev/null 2>&1
+cd /etc/slowdns && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/SLOWDNS/remove-slow > /dev/null 2>&1
+cd /etc/slowdns && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/SLOWDNS/restartdns > /dev/null 2>&1
+cd /etc/slowdns && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/SLOWDNS/slowdns-drop > /dev/null 2>&1
+cd /etc/slowdns && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/SLOWDNS/slowdns-info > /dev/null 2>&1
+cd /etc/slowdns && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/SLOWDNS/slowdns-socks > /dev/null 2>&1
+cd /etc/slowdns && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/SLOWDNS/slowdns-ssh > /dev/null 2>&1
+cd /etc/slowdns && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/SLOWDNS/slowdns-ssl > /dev/null 2>&1
+cd /etc/slowdns && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/SLOWDNS/startdns > /dev/null 2>&1
+cd /etc/slowdns && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/SLOWDNS/stopdns > /dev/null 2>&1
 cd /bin/ && chmod +x slowdns
 cd /etc/slowdns && chmod +x dns-server
 cd /etc/slowdns && chmod +x remove-slow
@@ -407,22 +407,22 @@ cd /bin/ && rm -f banner*
 cd /bin/ && rm -f mudardata*
 cd /bin/ && rm -f delscript*
 cd /bin/ && rm -f senharoot*
-cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/MENU-CONEXÃO-ETC/conexao/conexao > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/MENU-CONEXÃO-ETC/menu > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/MENU-CONEXÃO-ETC/sshmonitor > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/MENU-CONEXÃO-ETC/criarusuario > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/MENU-CONEXÃO-ETC/uexpired > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/MENU-CONEXÃO-ETC/remover > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/MENU-CONEXÃO-ETC/criarteste > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/MENU-CONEXÃO-ETC/alterarlimite > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/MENU-CONEXÃO-ETC/alterarsenha > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/MENU-CONEXÃO-ETC/detalhes > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/MENU-CONEXÃO-ETC/infousers > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/MENU-CONEXÃO-ETC/expcleaner > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/MENU-CONEXÃO-ETC/banner > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/MENU-CONEXÃO-ETC/mudardata > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/MENU-CONEXÃO-ETC/delscript > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/-GOD-SUKUNA/main/MENU-CONEXÃO-ETC/senharoot > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/MENU-CONEXÃO-ETC/conexao/conexao > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/MENU-CONEXÃO-ETC/menu > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/MENU-CONEXÃO-ETC/sshmonitor > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/MENU-CONEXÃO-ETC/criarusuario > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/MENU-CONEXÃO-ETC/uexpired > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/MENU-CONEXÃO-ETC/remover > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/MENU-CONEXÃO-ETC/criarteste > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/MENU-CONEXÃO-ETC/alterarlimite > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/MENU-CONEXÃO-ETC/alterarsenha > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/MENU-CONEXÃO-ETC/detalhes > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/MENU-CONEXÃO-ETC/infousers > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/MENU-CONEXÃO-ETC/expcleaner > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/MENU-CONEXÃO-ETC/banner > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/MENU-CONEXÃO-ETC/mudardata > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/MENU-CONEXÃO-ETC/delscript > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/F4K3R171337/GOD-SUKUNA/main/MENU-CONEXÃO-ETC/senharoot > /dev/null 2>&1
 cd /bin/ && chmod +x conexao
 cd /bin/ && chmod +x menu
 cd /bin/ && chmod +x sshmonitor
